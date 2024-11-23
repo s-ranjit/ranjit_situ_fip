@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 58.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9a2018;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <g id="icon_x5F_mob_x5F_phone">
+      <path class="cls-1" d="M29.13,0H4.87C2.18,0,0,2.18,0,4.87v48.76c0,2.69,2.18,4.87,4.87,4.87h24.26c2.69,0,4.87-2.18,4.87-4.87V4.87c0-2.69-2.18-4.87-4.87-4.87ZM12.77,3h8v1h-8v-1ZM17.11,57c-1.1,0-2-.9-2-2s.9-2,2-2,2,.9,2,2-.9,2-2,2ZM30.52,51H3.52V6h27v45Z"/>
+    </g>
+  </g>
+</svg>
