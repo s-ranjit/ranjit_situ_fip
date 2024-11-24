@@ -5,7 +5,7 @@ Couples Resort Responsive Build
 
 /* 
     CSS Guide 
-
+Index Page
     1.  General Styles
     2.  Main Nav
     3.  Main Hero Image
@@ -14,6 +14,11 @@ Couples Resort Responsive Build
     6.  About & FAQ
     7.  Contact Form
     8.  Footer 
+   Spa Page
+   1.  Algonquin Spa Feature
+   2.  SPA polices and information
+   3.  Unforseen Circumstances
+   4.  Spa Product
  */
 
 
@@ -409,7 +414,7 @@ Couples Resort Responsive Build
      background-repeat: no-repeat;
     color: #fff;
     font-size: 12px;
-    margin-top: 40px;
+    margin-top: 20px;
     padding-bottom: 80px;
  }
  
@@ -432,3 +437,200 @@ Couples Resort Responsive Build
     line-height: 18px;
     font-size: 11px;
  }
+
+ /* Spa Page */
+
+.summary-img input {
+   text-align: center;
+   padding: 15px 0px;
+   border: 2px solid #d6d6d6;
+   background: #9a2018;
+   margin-bottom: 30px;
+   font: inherit;
+   width: auto;
+   color: #fff;
+   margin-left: 200px;
+   cursor: pointer;
+}
+ 
+ /* 1. ---Algonquin Spa Feature--- */
+ #spa-feature-con {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#spa-feature-con h2 {
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+#spa-feature-con h2 span {
+   color: #C54242;
+   font-size: 14px;
+}
+
+.spa-feature-items {
+   margin-bottom: 16px;
+}
+
+.spa-feature-items summary {
+   background: #e8e7e7;
+   padding: 16px;
+   font-size: 15px;
+}
+
+.summary-img p {
+  font-size: 15px;
+}
+
+.manicure {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.manicure p {
+  font-size: 15px;
+}
+
+
+/* 2. ---SPA polices and information--- */
+
+#spa-policies-info-con {
+  background: url(../images/mob_spa_sec_02.jpg) no-repeat;
+  height: 210px;
+  width: 412px;
+
+}
+
+#spa-policies-info-heading-box {
+   align-self: end;
+}
+
+.spa-policies-info-image {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+#spa-policies-text p{
+   font-size: 14px;
+   margin-bottom: 20px;
+   line-height: 22px;
+}
+
+#spa-policies form {
+   display: flex;
+   flex-direction: column;
+}
+
+#spa-policies input, #spa-policies input textarea {
+   padding: 22px;
+   border: 2px solid #d6d6d6;
+   background: #9a2018;
+   margin-bottom: 30px;
+   font: inherit;
+   width: auto;
+   color: #fff;
+   margin-left: auto;
+  cursor: pointer;
+}
+
+#spa-policies textarea {
+   height: 250px;
+}
+
+#spa-policies input[type="book an appointment"] {
+   padding: 12px 28px;
+   background: #9a2018;
+   color: #ffffff;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 150px;
+   align-self: flex-end;
+}
+
+#spa-policies input[type="book an appointment"]:hover {
+   background-color: #626262;
+}
+
+#spa-policies input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #9A2018; 
+  color: white;
+  border: 2px solid #C54242;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;  
+}
+
+/* Hover animation */
+#spa-policies input[type="submit"]:hover {
+  background-color: #C54242;  
+  border-color: #9A2018;     
+  transform: scale(1.1);   
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+
+
+
+/* 3. ---Unforseen Circumstances--- */
+#unforseen-circumstances-con h2 {
+  background-color: #f5f5f5;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+#unforseen-circumstances-con {
+  background-color: #f5f5f5;
+}
+
+#un-ci-heading-box {
+  align-self: end;
+}
+
+#un-ci-text {
+  padding-bottom: 10px;
+}
+
+#un-ci-text p {
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 22px;
+}
+
+
+/* 4. ---Spa Products--- */
+
+#spa-products-heading-box {
+  align-self: end;
+}
+
+#spa-products-text {
+  padding-bottom: 20px;
+}
+
+#spa-products-text img {
+  width: 101px;
+  height: 124px;
+}
+
+#spa-products-text h2 {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+
+#spa-products-text p {
+  margin-top: 5px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  line-height: 22px;
+}
+
+.product {
+  display: flex;
+  gap: 20px;
+}
