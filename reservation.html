@@ -41,76 +41,79 @@
         </header>
 
         <!-- Main Hero -->
-        <section>
+        <section id="hero" class="grid-con">
             <h2 class="hidden">Book a stay with us</h2>
-            <div>
+            <div id="book-now-hero" class="book-now col-start-3 col-span-2">
                 <p>Book Now</p>
             </div>
-            <section>
+            <section id="hero-heading-box" class="col-span-full">
                 <h2 class="hero-img-h2">
                     <span>Couples Resort</span><br> Book Now
                 </h2>
             </section>
         </section>
 
-        <div>
-            <section>
+        <div class="grid-con">
+            <section id="hero-summary" class="col-span-full line-separator">
                 <h2 class="hidden">Booking instruction</h2>
-                <p> Welcome to our secure server.</p>
-                <div>
+                <p class="welcome-p"> Welcome to our secure server.</p>
+                <div class="form-group flex book-now-form">
                     <label for="arrive">Arrive:</label>
                     <input type="date" id="arrive" name="arrive" required>
                 </div>
 
-                <div>
+                <div class="book-now-form">
                     <label id="nights">Nights:</label>
                     <input type="number" min="1">
                     <label id="Guests">Guests:</label>
                     <input type="number" min="1">
                 </div>
-                <div>
+                <div class="check"><input type="checkbox" /><span></span>
+                    <label for="confirmation"> Check to confirm ! ! !</label>
+                </div>
+                <div class="book-btn">
                     <input type="text" value="Check Availability">
                 </div>
                 <p>Use the reservation system to check the current rates
-                    for your stay.
+                    for your stay. <br>
                     To help you better : Food Allergies - Please enter the
-                    type of food allergy.
+                    type of food allergy. <br>
                     Our rooms have down duvet and pillows, if allergic to
                     feathers indicate if both are to be removed or just the
                     pillows.
                 </p>
-                <p>Location:
-                    139 Galeairy Lake Road
-                    Whitney, Ontario, Canada, K0J 2M0
+                <p>Location: <br>
+                    139 Galeairy Lake Road <br>
+                    Whitney, Ontario, Canada, K0J 2M0 <br>
                     1-866-202-1179</p>
 
-                <p> Booking Requirements - Change Date Fees -
+                <p> Booking Requirements - Change Date Fees - <br>
                     Cancellation Fees</p>
             </section>
         </div>
 
         <!--Policies-->
-        <div>
-            <div>
+        <div id="booking-policy-con" class="grid-con">
+            <div class="col-span-full">
                 <h2><span>Couples Resort</span><br>Policies</h2>
             </div>
-            <section>
+            <section class="col-span-full booking-policy-items line-separator">
                 <h2 class="hidden">Our policies</h2>
-                <p>You will be signing a registration upon arrival. You will be accepting your invoice and paying
-                    upfront for your stay in advance and taking full responsibility for any and all charges
-                    made during
-                    your stay. We are strictly a NO-TIPPING RESORT therefore NO tipping allowed nor expected.
-                    All prices
-                    are quoted in Canadian Dollars. We accept Debit Card, Visa, MasterCard, American Express
-                    and Cash
-                    (NO Cheques). Rates are guaranteed at time of booking with deposit, Plus 13% Harmonized
-                    Sales Tax.
-                    Check in time is around 4 pm-5 pm Check out time is 11 am Sorry no pets allowed. No
-                    Smoking nor
-                    Vaping inside any accommodation. Please be aware that we are a Destination Resort and Not a
-                    Hotel
-                    and that the Following Deposits, Change Date Fees and Cancellation Fees must Apply:</p>
-                <section>
+                <p>You will be signing a registration upon arrival. You <br> will be accepting your invoice and paying
+                    upfront for <br>your stay in advance and taking full responsibility <br> for any and all charges
+                    made during your stay. We <br> are strictly a NO-TIPPING RESORT therefore NO <br> tipping allowed
+                    nor
+                    expected.
+                    All prices are quoted <br> in Canadian Dollars. We accept Debit Card, Visa, <br> MasterCard,
+                    American Express
+                    and Cash (NO <br> Cheques). Rates are guaranteed at time of booking <br> with deposit, Plus 13%
+                    Harmonized
+                    Sales Tax. Check <br>in time is around 4 pm-5 pm Check out time is 11 am. <br> Sorry no pets
+                    allowed. No
+                    Smoking nor Vaping <br> inside any accommodation. Please be aware that we <br>are a Destination
+                    Resort and
+                    Not a Hotel and that the Following Deposits, Change Date Fees and Cancellation Fees must Apply:</p>
+                <section class="col-span-full booking-policy-items">
                     <h2 class="hidden">Our policies</h2>
                     <details>
                         <summary>Deposits</summary>
@@ -123,7 +126,7 @@
                     </details>
                 </section>
 
-                <section>
+                <section class="col-span-full booking-policy-items">
                     <h2 class="hidden">Our policies</h2>
                     <details>
                         <summary>Guest Cancellation and Change Date Fees</summary>
@@ -133,7 +136,7 @@
                     </details>
                 </section>
 
-                <section>
+                <section class="col-span-full booking-policy-items">
                     <h2 class="hidden">Our policies</h2>
                     <details>
                         <summary>Property Policy</summary>
@@ -178,7 +181,7 @@
                     </details>
                 </section>
 
-                <section>
+                <section class="col-span-full booking-policy-items">
                     <h2 class="hidden">Our policies</h2>
                     <details>
                         <summary>Tipping and Gratuity Advice</summary>
@@ -191,7 +194,7 @@
                     </details>
                 </section>
 
-                <section>
+                <section class="col-span-full booking-policy-items">
                     <h2 class="hidden">Our policies</h2>
                     <details>
                         <summary>Power Outage Policy</summary>
@@ -206,37 +209,38 @@
             </section>
         </div>
 
-
         <!--Revisions to Policy -->
-        <div>
+        <div id="revision-policy-con">
 
-            <div>
-                <h2><span> Couples Resort</span><br>Revisions to Policy</h2>
+            <div id="revision-heading-box" class="col-span-full">
+                <h2 class="hero-img-h2"><span> Couples Resort</span><br>Revisions to Policy</h2>
             </div>
-            <div>
-                <div>
-                    <article>
+            <div class="grid-con">
+                <div id="revision-text" class="col-span-full line-separator">
+                    <article id="revision-text-column1">
                         <h2 class="hidden">Revisions to this Policy</h2>
-                        <p>The Couples Resort reserves the right to revise,
-                            amend, or modify this policy, our Internet Service
-                            Agreement and our other policies and agreements at
-                            any time and in any manner. Notice of any revision,
-                            amendment, or modification will be posted in
+                        <p>The Couples Resort reserves the right to revise, <br>
+                            amend, or modify this policy, our Internet Service <br>
+                            Agreement and our other policies and agreements at <br>
+                            any time and in any manner. Notice of any revision, <br>
+                            amendment, or modification will be posted in <br>
                             accordance with the Internet Service Agreement.</p>
-                        <p> If you have any questions about this Privacy Policy or
-                            the practices described herein, you may contact:
-                            Attention: John Sorensen
+
+                        <p> If you have any questions about this Privacy Policy or <br>
+                            the practices described herein, you may contact: <br>
+                            Attention: John Sorensen <br>
                         </p>
-                        <p> Couples Resort
-                            P. O. Box 310
-                            139 Galeairy Lake Road
-                            Whitney - Algonquin Park, ON K0J 2M0
+                        <p> Couples Resort <br>
+                            P. O. Box 310 <br>
+                            139 Galeairy Lake Road <br>
+                            Whitney - Algonquin Park, ON K0J 2M0 <br>
                             Canada</p>
                     </article>
                 </div>
             </div>
         </div>
 
+        <!--Footer -->
         <footer id="footer-hero" class="grid-con">
             <section id="footer-contact-info" class="col-span-full">
                 <h3>Couples Resort</h3>
