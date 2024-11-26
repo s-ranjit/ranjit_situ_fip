@@ -751,6 +751,7 @@ Contact Page
    background-color: #f4f4f4;
    padding-top: 35px;
    padding-bottom: 30px;
+   cursor: pointer;
 }
 
 #booking-policy-con h2 {
