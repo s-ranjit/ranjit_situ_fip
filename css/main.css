@@ -19,6 +19,11 @@ Index Page
    2.  SPA polices and information
    3.  Unforseen Circumstances
    4.  Spa Product
+
+Reservation Page
+   1. Main Hero
+   2. Policies
+   3. Revisions of Policy
  */
 
 
@@ -635,6 +640,10 @@ Index Page
   gap: 20px;
 }
 
+
+ /* Reservation Page */
+
+ /* 1. ---Main Hero--- */
 .form-group.flex {
    display: flex;
    align-items: center;
@@ -727,7 +736,7 @@ Index Page
 
 }
 
-/* 4. ---Policies--- */
+/* 2. ---Policies--- */
 
 #booking-policy-con {
    background-color: #f4f4f4;
@@ -762,7 +771,7 @@ Index Page
    font-size: 15px;
 }
 
-/* 6. ---Unforseen Circumstances--- */
+/* 3. ---Revisions to Policy--- */
 
 #revision-heading-box {
   align-self: end;
