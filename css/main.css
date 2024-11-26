@@ -457,7 +457,7 @@ Contact Page
 .summary-img input {
    text-align: center;
    padding: 15px 0px;
-   border: 2px solid #d6d6d6;
+   border: 2px solid #9a2018;
    background: #9a2018;
    margin-bottom: 30px;
    font: inherit;
@@ -541,7 +541,7 @@ Contact Page
 
 #spa-policies input, #spa-policies input textarea {
    padding: 22px;
-   border: 2px solid #d6d6d6;
+   border: 2px solid #9a2018;
    background: #9a2018;
    margin-bottom: 30px;
    font: inherit;
@@ -555,64 +555,30 @@ Contact Page
    height: 250px;
 }
 
-#spa-policies input[type="book an appointment"] {
-   padding: 12px 28px;
-   background: #9a2018;
-   color: #ffffff;
-   border: none;
-   transition: all 200ms ease-in;
-   width: 150px;
-   align-self: flex-end;
+.keyframe-button {
+   border-radius: 5px;
+   animation: pulse 3s infinite ease-in-out;
+   transition: background-color 0.3s ease;
 }
 
-#spa-policies input[type="book an appointment"]:hover {
-   background-color: #626262;
+.keyframe-button:hover {
+   background-color: #c54242;
 }
 
-#spa-policies input[type="submit"] {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #9A2018; 
-  color: white;
-  border: 2px solid #C54242;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;  
+.keyframe-button:active {
+   background-color: #c54242;
 }
 
-/* Hover animation */
-#spa-policies input[type="submit"]:hover {
-  background-color: #C54242;  
-  border-color: #9A2018;     
-  transform: scale(1.1);   
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
-}
-
-
-
-/* 3. ---Unforseen Circumstances--- */
-#unforseen-circumstances-con h2 {
-  background-color: #f5f5f5;
-  padding-top: 20px;
-  padding-bottom: 5px;
-}
-
-#unforseen-circumstances-con {
-  background-color: #f5f5f5;
-}
-
-#un-ci-heading-box {
-  align-self: end;
-}
-
-#un-ci-text {
-  padding-bottom: 10px;
-}
-
-#un-ci-text p {
-  font-size: 15px;
-  margin-bottom: 15px;
-  line-height: 22px;
+@keyframes pulse {
+   0% { transform: scale(1); 
+       box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   }
+   50% { transform: scale(1.05);
+       box-shadow: 0 0 15px #c54242; 
+   }
+   100% {  transform: scale(1); 
+       box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   }
 }
 
 
@@ -631,7 +597,7 @@ Contact Page
   height: 124px;
 }
 
-#spa-products-text h2 {
+#spa-products-text h3 {
   margin-top: 20px;
   font-size: 15px;
   text-align: left;
