@@ -634,3 +634,146 @@ Index Page
   display: flex;
   gap: 20px;
 }
+
+.form-group.flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 3px;
+   margin: 20px;
+}
+       
+.book-now-form  {
+  display: flex;
+  align-items:center;
+  gap: 5px;
+  margin: 10px 0px;
+}
+.book-now-form input{
+  width: 130px;
+  height: 30px;
+  background-color: #d9d9d9;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+.book-btn input, textarea {
+   padding: 20px 10px;
+   text-align: center;
+   border: 2px solid #9a2018;
+   background: #9a2018;
+   font: inherit;
+   width: auto;
+   color: #fff;
+   margin: 20px auto 10px auto;
+ }
+ 
+ .book-btn input:hover {
+    background-color: #C54242;
+    border: 2px solid #C54242;
+    animation: wave 2s linear infinite; /* Background wave */
+   transform: scale(1.1); /* Slight zoom */
+ }
+
+.check {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.check input {
+   display: inline;
+   margin: 0px;
+   padding: 0px;
+ }
+
+ .check label {
+   font-size: 16px;
+ }
+
+ .check input[type="checkbox"]:checked + span::after {
+   content: "\2764";
+   color: red;
+   margin-left: 5px;
+   justify-content: center;
+   align-items: center;
+ }
+ .form-group.flex {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 3px;
+   margin: 20px;
+}
+       
+.book-now-form  {
+  display: flex;
+  align-items:center;
+  gap: 5px;
+  margin: 10px 0px;
+}
+.book-now-form input{
+  width: 130px;
+  height: 30px;
+  background-color: #d9d9d9;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+/* 4. ---Policies--- */
+
+#booking-policy-con {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#booking-policy-con h2 {
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+
+#booking-policy-con h2 span {
+   color: #C54242;
+   font-size: 14px;
+}
+
+.booking-policy-items p {
+   font-size: 15px;
+   margin-top: 10px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+.booking-policy-items {
+   margin-bottom: 16px;
+}
+
+.booking-policy-items summary {
+   background: #d6d6d6;
+   padding: 16px;
+   font-size: 15px;
+}
+
+/* 6. ---Unforseen Circumstances--- */
+
+#revision-heading-box {
+  align-self: end;
+}
+
+#revision-text {
+  padding-bottom: 10px;
+}
+
+#revision-text p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 22px;
+}
