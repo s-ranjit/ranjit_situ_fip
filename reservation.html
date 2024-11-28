@@ -14,7 +14,7 @@
 
 <body>
     <div id="mobile-outline">
-        <h1 class="hidden">Reservation Page</h1>
+        <h1 class="hidden">Couples Resort Reservation Page</h1>
         <!-- Main Nav -->
         <header class="grid-con" id="main-header">
             <nav id="main-nav" class="col-span-full">
@@ -31,7 +31,8 @@
                         <li><a href="#">Dining</a></li>
                         <li><a href="spa.html">Spa Activites</a></li>
                         <li><a href="reservation.html">Reservations</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="park.html">Algonquin Park</a></li>
+                        <li><a href="offer.html">Valentine's Day Offer</a></li>
                     </ul>
                 </div>
             </nav>
@@ -43,33 +44,39 @@
         <!-- Main Hero -->
         <main>
             <section id="hero" class="grid-con">
-                <h2 class="hidden">Book a stay with us</h2>
+                <h2 class="hidden">Reserve a stay with us</h2>
                 <div id="book-now-hero" class="book-now col-start-3 col-span-2">
                     <p>Book Now</p>
                 </div>
-                <section id="hero-heading-box" class="col-span-full">
-                    <h2 class="hero-img-h2">
-                        <span>Couples Resort</span><br> Book Now
-                    </h2>
-                </section>
+                <div id="hero-heading-box" class="col-span-full">
+                    <p class="hero-img-h2 bold"><span>Couples Resort</span><br> Book Now </p>
+                </div>
             </section>
 
             <div class="grid-con">
                 <section id="hero-summary" class="col-span-full line-separator">
                     <h2 class="hidden">Booking instruction</h2>
-                    <p class="welcome-p"> Welcome to our secure server.</p>
-                    <div class="form-group flex book-now-form">
-                        <label for="arrive">Arrive:</label>
-                        <input type="date" id="arrive" name="arrive" required>
+                    <p class="welcome-p"> Welcome to our booking section.</p>
+                    <div class="book-form">
+                        <div class="book-now-form">
+                            <label for="arrive">Arrive:</label>
+                            <input type="date" id="arrive" name="arrive" required>
+                        </div>
+
+                        <div class="book-now-form">
+                            <label id="nights">Nights:</label>
+                            <input type="number" min="1">
+                        </div>
+                        <div class="book-now-form">
+                            <label id="Guests">Guests:</label>
+                            <input type="number" min="1">
+                        </div>
+                    </div>
+                    <div class="book-btn padding-top">
+                        <input type="submit" value="Check Availability">
                     </div>
 
-                    <div class="book-now-form">
-                        <label id="nights">Nights:</label>
-                        <input type="number" min="1">
-                        <label id="Guests">Guests:</label>
-                        <input type="number" min="1">
-                    </div>
-                    <p>Use the reservation system to check the current rates
+                    <p class="padding-top">Use the reservation system to check the current rates
                         for your stay. <br>
                         To help you better : Food Allergies - Please enter the
                         type of food allergy. <br>
@@ -90,9 +97,9 @@
 
 
             <!--Policies-->
-            <div id="booking-policy-con" class="grid-con">
+            <section id="booking-policy-con" class="grid-con">
                 <div class="col-span-full">
-                    <h2><span>Couples Resort</span><br>Policies</h2>
+                    <h2><span>Couples Resort&nbsp;</span><br>Booking Policies</h2>
                 </div>
                 <div class="col-span-full booking-policy-items line-separator">
                     <p>You will be signing a registration upon arrival. You <br> will be accepting your invoice and
@@ -116,12 +123,8 @@
 
                         <details>
                             <summary>Deposits</summary>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo
-                                mollitia velit quos blanditiis, optio necessitatibus accusantium aut
-                                et, itaque temporibus aperiam, quam vero perspiciatis a aliquam ad
-                                dolorum corporis.
-                            </p>
+                            <p>$500 Required on Booking an accommodation.
+                                WE ABSOLUTELY DO NOT REQUEST OR ACCEPT EMAIL TRANSFERS</p>
                         </details>
                     </div>
 
@@ -129,9 +132,12 @@
 
                         <details>
                             <summary>Guest Cancellation and Change Date Fees</summary>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum odio perferendis
-                                nisi ipsum, corporis necessitatibus nesciunt eligendi vero, ipsa quod facere. Ipsam
-                                officia illo debitis necessitatibus reiciendis incidunt dolorum harum!</p>
+                            <p>1. $200 Administration Fee will be charged to Change Dates and to Cancellations,
+                                Absolutely No Exceptions. There is a 24 hour delay, from booking time, before Fee takes
+                                effect. <br> </p>
+                            <p>2. CHARGED FULL 1 NIGHTS ACCOMMODATION to GUEST who DO NOT Show up on Arrival Date, and
+                                did not prior Change Date or Prior Cancel. <br> </p>
+                            <p>3.NO REFUND will be given for shortened Resort stays.</p>
                         </details>
                     </div>
 
@@ -183,34 +189,41 @@
                     <div class="col-span-full booking-policy-items">
                         <details>
                             <summary>Tipping and Gratuity Advice</summary>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo
-                                mollitia velit quos blanditiis, optio necessitatibus accusantium aut
-                                et, itaque temporibus aperiam, quam vero perspiciatis a aliquam ad
-                                dolorum corporis.
-                            </p>
+                            <p>If you feel you really must tip or leave a gratuity, then we encourage you to tell the
+                                amazing staff and the World on TripAdvisor or Yelp or Google Reviews or Facebook as
+                                they, the staff, love to read it. Your action will affect them both emotionally
+                                positively and financially positively as it will help their "joy of the day" and their
+                                careers as they move forward in life. </p>
                         </details>
                     </div>
 
                     <div class="col-span-full booking-policy-items">
                         <details>
                             <summary>Power Outage Policy</summary>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo
-                                mollitia velit quos blanditiis, optio necessitatibus accusantium aut
-                                et, itaque temporibus aperiam, quam vero perspiciatis a aliquam ad
-                                dolorum corporis.
-                            </p>
+                            <p>Power Outage Policy was introduced due to outage in winter 2009, the first time in 42
+                                years that the resort had to shut down due to a power outage. Currently in a Power
+                                Outage we can Provide the Following Services: </p>
+                            <p> 1.Wood burning fireplace in all Accommodations; for Romance ( Possibly # 1 Reason Guests
+                                stay with us)</p>
+                            <p> 2.Fully operational Kitchen; Gourmet Dining (Possible also the #1 Reason Guests stay
+                                with us) </p>
+                            <p> 3.Cold running water in all Accommodations </p>
+                            <p> 4.Hot and Cold Showers in the Gym/Sauna Facilities</p>
+                            <p>5.Recreation Room with Big TV for the Vital Game (Much lower on the list of reasons to
+                                stay with us...but May be critical)</p>
+                            <p>6.Office has access to the outside world with Phone and Data Line services </p>
+                            <p>7.We Apologize that all the Toys in your Accommodation, and the Pool/Hot Tub will Not be
+                                operational</p>
                         </details>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!--Revisions to Policy -->
-            <div id="revision-policy-con">
+            <section id="revision-policy-con">
 
                 <div id="revision-heading-box" class="col-span-full">
-                    <h2 class="hero-img-h2"><span> Couples Resort</span><br>Revisions to Policy</h2>
+                    <h2 class="hero-img-h2"><span> Couples Resort&nbsp;</span><br>Revisions to Policy</h2>
                 </div>
                 <div class="grid-con">
                     <div id="revision-text" class="col-span-full line-separator">
@@ -234,31 +247,35 @@
                                 Canada</p>
                         </article>
                         <div class="check"><input type="checkbox" id="confirmation"><span></span>
-                            <label for="confirmation"> "I agree to the Resort's Privacy Policy."</label>
+                            <label for="confirmation">&nbsp;&nbsp;"I agree to the Resort's Privacy Policy."</label>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
 
         <!--Footer -->
         <footer id="footer-hero" class="grid-con">
             <section id="footer-contact-info" class="col-span-full">
-                <h3>Couples Resort</h3>
-                <p>1198 Osprey Rd, (End of)
-                    Minden, Soyers Lake, ON,
+                <h2>Couples Resort</h2>
+                <h3 class="hidden">Address</h3>
+                <p>1198 Osprey Rd, (End of)<br>
+                    Minden, Soyers Lake, ON, <br>
                     K0M 2K0
                 </p>
+                <h3 class="hidden">Contact Information</h3>
                 <p>
-                    Toll Free:+1 877 201-1156
-                    FAX:+1 613 638 2217
+                    Toll Free:+1 877 201-1156<br>
+                    FAX:+1 613 638 2217<br>
                     E-mail: info@coupleresort.com
                 </p>
             </section>
             <div id="footer-privacy" class="col-span-full line-separator">
-                <p id="price-policy">All prices and services on this website and in our reservation system are based on
+                <p id="price-policy">All prices and services on this website and in our reservation system are based
+                    on
                     conditions at the time of publishing and are subject to change. Please call to confirm services,
-                    availability and pricing. <br> ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
+                    availability and pricing. <br> ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy
+                </p>
             </div>
         </footer>
     </div>

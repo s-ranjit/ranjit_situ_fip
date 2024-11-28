@@ -24,10 +24,7 @@ Reservation Page
    2. Policies
    3. Revisions of Policy
 
-Contact Page
-   1. Speak with us
-   2. Directions
- */
+
 
 
  /* 1. ---General Styles--- */
@@ -60,6 +57,9 @@ Contact Page
  }
  .bold {
    font-weight: bold;
+ }
+ .padding-top {
+   padding-top: 20px;
  }
  
  /* 2. ---Main Nav--- */
@@ -433,7 +433,7 @@ Contact Page
     padding-bottom: 80px;
  }
  
- #footer-hero h3 {
+ #footer-hero h3, #footer-hero h2 {
     margin-top: 30px;
     font-size: 28px;
     margin-bottom: 16px;
@@ -456,33 +456,36 @@ Contact Page
  /* Spa Page */
 
 .summary-img input {
-   text-align: center;
-   padding: 15px 0px;
-   border: 2px solid #9a2018;
-   background: #9a2018;
-   margin-bottom: 30px;
-   font: inherit;
-   width: auto;
-   color: #fff;
-   margin-left: 200px;
-   cursor: pointer;
+      padding: 10px 20px 10px 20px;
+      text-align: center;
+      border: 2px solid #9a2018;
+      background: #9a2018;
+      font: inherit;
+      width: auto;
+      color: #fff;
+      margin-left: auto;
+      margin-right: 18px;
+      font-size: 12px;
+      margin-top: 15px;
 }
+
  
  /* 1. ---Algonquin Spa Feature--- */
  #spa-feature-con {
    background-color: #f4f4f4;
    padding-top: 35px;
    padding-bottom: 30px;
+   margin-top: 20px;
 }
 
 #spa-feature-con h2 {
-   font-size: 20px;
-   margin-bottom: 20px;
+   font-size: 14px;
+   margin-bottom: 3px;
 }
 
 #spa-feature-con h2 span {
    color: #C54242;
-   font-size: 14px;
+   font-size: 12px;
 }
 
 .spa-feature-items {
@@ -516,7 +519,6 @@ Contact Page
   background: url(../images/mob_spa_sec_02.jpg) no-repeat;
   height: 210px;
   width: 412px;
-
 }
 
 #spa-policies-info-heading-box {
@@ -557,7 +559,6 @@ Contact Page
 }
 
 .keyframe-button {
-   border-radius: 5px;
    animation: pulse 3s infinite ease-in-out;
    transition: background-color 0.3s ease;
 }
@@ -620,14 +621,7 @@ Contact Page
  /* Reservation Page */
 
  /* 1. ---Main Hero--- */
-.form-group.flex {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 3px;
-   margin: 20px;
-}
-       
+     
 .book-now-form  {
   display: flex;
   align-items:center;
@@ -645,23 +639,19 @@ Contact Page
 
 }
 
-.book-btn input, .book-btn textarea {
-   padding: 20px 10px;
+.book-btn input {
+   padding: 10px 10px;
    text-align: center;
    border: 2px solid #9a2018;
    background: #9a2018;
    font: inherit;
    width: auto;
    color: #fff;
-   margin: 20px auto 10px auto;
+   margin-right: 2px;
+   margin-left: auto;
+   font-size: 12px;
  }
  
- .book-btn input:hover {
-    background-color: #C54242;
-    border: 2px solid #C54242;
-    animation: wave 2s linear infinite; /* Background wave */
-   transform: scale(1.1); /* Slight zoom */
- }
 
 .check {
    display: flex;
@@ -687,14 +677,9 @@ Contact Page
    justify-content: center;
    align-items: center;
  }
- .form-group.flex {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 3px;
-   margin: 20px;
-}
-       
+ .book-now-form label{
+   width: 60px;
+ }      
 .book-now-form  {
   display: flex;
   align-items:center;
@@ -709,31 +694,36 @@ Contact Page
   display: flex;
   justify-content: center;
   transition: transform 0.3s ease, background-color 0.3s ease;
+}
+input[type="number"] {
+   text-align: center;
+}
 
+.book-form input {
+ width: 100%;
 }
 
 /* 2. ---Policies--- */
 
 #booking-policy-con {
    background-color: #f4f4f4;
-   padding-top: 35px;
-   padding-bottom: 30px;
+   padding-top: 15px;
    cursor: pointer;
 }
 
 #booking-policy-con h2 {
-   font-size: 20px;
-   margin-bottom: 10px;
+   font-size: 14px;
+   margin-bottom: 2px;
 }
 
 #booking-policy-con h2 span {
    color: #C54242;
-   font-size: 14px;
+   font-size: 12px;
 }
 
 .booking-policy-items p {
    font-size: 15px;
-   margin-top: 10px;
+   margin-top: 3px;
    line-height: 22px;
    margin-bottom: 20px;
 }
@@ -755,121 +745,12 @@ Contact Page
 }
 
 #revision-text {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 #revision-text p {
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   line-height: 22px;
 }
 
-
- /* Contact Page */
-
-/* 1. ---Speak with us--- */
-
-   #contact-hero-form textarea {
-      height: 250px;
-      margin: 0;
-   }
-   
-   #contact-hero-form input[type="submit"] {
-      padding: 20px;
-      background-color: #9a2018;
-      color: #fff;
-      border: none;
-      width: 150px;
-      align-self: flex-end;
-      margin-top: 10px;
-   }
-
-/* 2. ---Directions--- */
-
-.address {
-   font-size: 13px;
-   display: flex;
-   align-items: center;
-    }
-    
-    .address input {
-      margin-left: 5px;
-      width: 220px;
-      padding: 5px 12px;
-      border: 1px solid #000000;
-      border-radius: 5px; 
-      background-color: #d6d6d6; 
-    }
-    
-    #directions-info-con {
-      background: url(../images/mob_con_map.jpg) no-repeat;
-      height: 200px;
-    }
-    
-    #directions-info-heading-box {
-       align-self: end;
-    }
-    
-    .directions-info-image {
-       float: left;
-       margin-right: 20px;
-       margin-top: 30px;
-    }
-   
-    #directions-text p{
-       font-size: 14px;
-       margin-bottom: 10px;
-       line-height: 22px;
-    }
-     
-    #directions-hero input, #directions-hero textarea {
-       padding: 16px;
-       border: 2px solid #9a2018;
-       background: #9a2018;
-       margin-bottom: 30px;
-       font: inherit;
-       width: auto;
-       color: #ffffff;
-       margin-top: 10px;
-       margin-left: auto;
-      cursor: pointer;
-      display: block;
-      transition: background-color 0.3s ease, transform 0.2s ease;
-    }
-     
-    #directions-hero input:hover, 
-    #directions-hero textarea:hover {
-        animation: bounce 0.5s ease;
-        background-color: #C54242;
-    }
-   
-   @keyframes bounce {
-      0% { transform: translateY(0);}
-      30% { transform: translateY(-5px);}
-      50% {transform: translateY(0); }
-      70% {transform: translateY(-3px);}
-      100% {transform: translateY(0);}
-   }
-   .check2 {
-     margin-top: 10px;
-      margin-bottom: 10px;
-   }
-   
-   .check2 input {
-      display: inline;
-      margin: 0px;
-      padding: 0px;
-    }
-   
-    .check2 label {
-      font-size: 15px;
-    }
-   
-    .check2 input[type="checkbox"]:checked + span::after {
-      content: "\1F44D";
-      margin-left: 4px;
-    }
-   
-   .service {
-      margin-bottom: 30px;
-   }
