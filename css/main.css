@@ -58,7 +58,9 @@ Contact Page
  .cr-red {
     color: #9a2018;
  }
- 
+ .bold {
+   font-weight: bold;
+ }
  
  /* 2. ---Main Nav--- */
  
