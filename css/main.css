@@ -14,7 +14,8 @@ Index Page
     6.  About & FAQ
     7.  Contact Form
     8.  Footer 
-   Spa Page
+
+Spa Page
    1.  Algonquin Spa Feature
    2.  SPA polices and information
    3.  Spa Product
@@ -24,7 +25,10 @@ Reservation Page
    2. Policies
    3. Revisions of Policy
 
-
+Algonquin Park Page
+   1. Park Activities
+   2. Fishing
+   3. Galeairy Lake
 
 
  /* 1. ---General Styles--- */
@@ -754,3 +758,110 @@ input[type="number"] {
   line-height: 22px;
 }
 
+
+/* Algonquin Park Page */
+
+/* 1. ---Park Activities--- */
+#activities-con {
+   background-color: #f4f4f4;
+   padding-top: 10px;
+}
+
+#activities-con h2 {
+   background-color: #f4f4f4;
+   padding-top: 10px;
+}
+
+.activity p {
+   margin: 8px 0px 8px 0px;
+   font-size: 12px;
+   text-align: left;
+}
+
+.activity {
+  display: flex; 
+  justify-content: center;
+  gap: 20px;
+}
+
+.activity img {
+   height: 250px;
+   width: 181px;
+}
+
+.para {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 10px;
+}
+
+.cta {
+   text-align: center;
+}
+
+.learn-more {
+   display: inline-block;
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 14px;
+   text-decoration: none;
+   padding: 10px 20px;
+   margin: 0 0 10px 260px;
+}
+
+/* 2. ---Fishing--- */
+
+#fishing-hero-con {
+   background: url(../images/mob_park_sec_03.jpg) no-repeat;
+   height: 210px;
+}
+
+#fishing-hero-heading-box {
+   align-self: end;
+}
+
+#fishing-text {
+   padding-bottom: 20px;
+}
+
+#fishing-text p {
+   font-size: 14px;
+   margin-bottom: 10px;
+   line-height: 22px;
+}
+
+#fishing-text-column2 {
+   font-style: italic;
+}
+
+/* 3. ---Galeairy Lake--- */
+#lake-con {
+   padding-top: 5px;
+   padding-bottom: 15px;
+}
+
+#lake-heading-box {
+   align-self: end;
+}
+
+#lake-text img {
+   width: 201px;
+   height: 130px;
+}
+
+#lake-text h3 {
+   margin-top: 20px;
+   font-size: 15px;
+   text-align: left;
+}
+ 
+#lake-text p {
+   margin-top: 10px;
+   font-size: 14px;
+   line-height: 22px;
+}
+ 
+.lake-img {
+   display: flex;
+   gap: 20px;
+}
