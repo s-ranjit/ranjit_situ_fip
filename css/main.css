@@ -865,3 +865,300 @@ input[type="number"] {
    display: flex;
    gap: 20px;
 }
+
+
+/* Valentines Day Offer Page - DESKTOP */
+
+#desk-outline {
+    
+   max-width: 1200px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
+
+/* 2. ---Main Nav--- */
+ 
+#desk_main-header {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+}
+
+ #desk_main-nav ul {
+   list-style-type: none;
+   display: flex;
+   padding: 0 0 0 10px; 
+   border-left: 2px solid #626262;
+ }
+
+ #desk_main-nav ul li {
+   margin: 7px;
+ }
+ #desk_main-nav ul li a {
+   color: #626262;
+ }
+
+ #desk_logo {
+   display: flex;
+   align-items: center;
+   width: 230px;
+ }
+ 
+  /* 3. ---Main Hero Image--- */
+ 
+  #desk_hero {
+   background: url(../images/desk_hm_hero.jpg) no-repeat;
+   height: 450px;
+}
+
+.desk_book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition:all 0.3s ease;
+   cursor: pointer;
+}
+
+.desk_book-now:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+#desk_book-now-hero {
+  width: 125px;
+}
+
+#desk_hero-heading-box {
+   align-self: end;
+}
+
+.desk_hero-img-h2, .desk_hero-img-h3 {
+   background: rgb(255, 255, 255);
+   padding: 10px 15px;
+   font-size: 24px;
+}
+
+.desk_hero-img-h2 span,  .desk_hero-img-h3 span {
+   color: #C54242;
+   font-size: 15px
+}
+
+.line-separator {
+   margin-top: 20px;
+   border-top: solid 3px #9a2018;
+   padding-top: 20px;
+}
+
+#desk_hero-summary p {
+   font-size: 16px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+
+/* 6. ---About & activities--- */
+
+.img {
+   margin-left: 0px;
+   
+}
+.button {
+   background-color: #9a2018;
+   padding: 10px 20px 10px 20px;
+   color: #fff;
+   border: #C54242;
+}
+
+.details_button {
+   text-align: center;
+   margin-left: 64%;
+   margin-top: 20px;
+}
+
+.view_details {
+   display: inline-block;
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 14px;
+   text-decoration: none;
+   padding: 10px 20px;
+   margin-bottom: 20px;
+}
+
+.yoga-text {
+   background-color: #505050;
+   color: #fff;
+   font-size: 15px;
+   margin-left: 10px;
+   margin-bottom: 23px;
+ }
+ .yoga-text p {
+   padding: 60px;
+ }
+ .yoga-text a {
+   padding: 50px;
+   color: #fff;
+ }
+ .yoga-text a:hover {
+ text-decoration: underline;
+ }
+
+
+ #desk_activities-con {
+   background-color: #f4f4f4;
+   padding-top: 35px;
+   padding-bottom: 30px;
+}
+
+#desk_activities-con h2 {
+   font-size: 23px;
+   margin-bottom: 20px;
+}
+
+#desk_activities-con h2 span {
+   color: #9a2018;
+   font-size: 16px;
+}
+
+.desk_activities-items {
+   margin-bottom: 16px;
+   background: #e8e7e7;
+   padding: 16px;
+   font-size: 16px;
+   cursor: pointer;
+   margin-top: 10px;
+} 
+.desk_activities-h{
+  border-bottom: solid 3px #9a2018;
+  margin-bottom: 20px;
+}
+
+.desk_activities-items ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+.desk_activities-items li {
+   padding: 8px 0;
+   border-bottom: 1px solid #9a2018;
+}   
+
+.desk_activities-items a {
+   color: inherit;
+   font-size: 13px;
+}
+
+#desk_activities-text-con {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#desk_activities-list-group4 img {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.desk_text {
+   display: flex;
+   gap: 20px;
+ }
+ 
+ .desk_text-para {
+   flex: 1;
+   font-size: 16px;
+   color: #333;
+ }
+ 
+ .desk_text-para p {
+   margin: 0;
+ }
+ 
+ .desk_text-para strong {
+   color: #9a2018;
+ }
+ /* 8. ---Footer--- */
+ 
+ #desk_footer-hero {
+    background-image: url(../images/desk_hm_foot.jpg);
+     background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+ }
+ 
+ #desk_footer-hero h2 {
+   margin-top: 70px;
+   font-size: 28px;
+   line-height: 22px;
+   margin-bottom: 10px;
+}
+ 
+ #desk_footer-privacy .line-seperator {
+    margin-top: 0px;
+ }
+ #desk_footer-nav-con {
+   padding-top: 53px;
+ }
+ #desk_footer-nav-con a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 14px;
+}
+#desk_footer-nav-con li {
+   list-style: none;
+   padding: 10px;
+}
+
+#desk_footer-nav-con2 {
+   padding-top: 53px;
+ }
+
+ #desk_footer-nav-con2 a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 14px;
+}
+#desk_footer-nav-con2 li {
+   list-style: none;
+   padding: 10px;
+}
+.desk_foot {
+   display: flex;
+   justify-content: center;
+   gap: 65px;
+}
+
+ #desk_footer-contact-info h2 {
+    font-size: 23px;
+ }
+ 
+ #desk_footer-contact-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 13px;
+ }
+ #price-policy {
+   text-align: center;
+   font-size: 13px;
+ }
+ .desk_foot_book-now p {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   font-style: italic;
+   transition:all 0.3s ease;
+   cursor: pointer;
+   padding: 20px 30px;
+   margin: 60px 0px 0px 180px;
+}
+
+.desk_foot_book-now:hover p {
+   background-color: rgb(196, 28, 28);
+}
+
