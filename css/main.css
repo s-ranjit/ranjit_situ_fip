@@ -130,7 +130,7 @@ Algonquin Park Page
  /* 3. ---Main Hero Image--- */
  
  #hero {
-    background: url(../images/mob_hm_hero.jpg) no-repeat;
+    background: url(../images/mob_hm_hero_01.jpg) no-repeat;
     height: 200px;
  }
  
@@ -434,7 +434,7 @@ Algonquin Park Page
     color: #fff;
     font-size: 12px;
     margin-top: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
  }
  
  #footer-hero h3, #footer-hero h2 {
@@ -962,10 +962,7 @@ input[type="number"] {
 
 /* 6. ---About & activities--- */
 
-.img {
-   margin-left: 0px;
-   
-}
+
 .button {
    background-color: #9a2018;
    padding: 10px 20px 10px 20px;
@@ -994,14 +991,15 @@ input[type="number"] {
    color: #fff;
    font-size: 15px;
    margin-left: 10px;
-   margin-bottom: 23px;
+   margin-bottom: 29px;
+   padding-bottom: 43px;
  }
  .yoga-text p {
-   padding: 60px;
+   padding: 50px;
  }
  .yoga-text a {
-   padding: 50px;
    color: #fff;
+   padding: 45px;
  }
  .yoga-text a:hover {
  text-decoration: underline;
@@ -1020,7 +1018,7 @@ input[type="number"] {
 }
 
 #desk_activities-con h2 span {
-   color: #9a2018;
+   color: #c54242;
    font-size: 16px;
 }
 
