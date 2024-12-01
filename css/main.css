@@ -30,6 +30,13 @@ Algonquin Park Page
    2. Fishing
    3. Galeairy Lake
 
+Valentine's Offer Page
+   1. Desk Page
+   2. Desk-Main Nav
+   3. Desk-Main Hero Image
+   4. Packages
+   5. Desk-Activities
+   6. Desk-Footer
 
  /* 1. ---General Styles--- */
 
@@ -869,6 +876,7 @@ input[type="number"] {
 
 /* Valentines Day Offer Page - DESKTOP */
 
+/* 1. ---Desk-Page--- */
 #desk-outline {
     
    max-width: 1200px;
@@ -876,7 +884,7 @@ input[type="number"] {
    border-radius: 10px;
 } 
 
-/* 2. ---Main Nav--- */
+/* 2. ---Desk-Main Nav--- */
  
 #desk_main-header {
    display: flex;
@@ -904,7 +912,7 @@ input[type="number"] {
    width: 230px;
  }
  
-  /* 3. ---Main Hero Image--- */
+  /* 3. ---Desk-Main Hero Image--- */
  
   #desk_hero {
    background: url(../images/desk_hm_hero.jpg) no-repeat;
@@ -960,7 +968,7 @@ input[type="number"] {
 }
 
 
-/* 6. ---About & activities--- */
+/* 4. ---Packages--- */
 
 
 .button {
@@ -1005,7 +1013,7 @@ input[type="number"] {
  text-decoration: underline;
  }
 
-
+/* 5. ---Desk-activities--- */
  #desk_activities-con {
    background-color: #f4f4f4;
    padding-top: 35px;
@@ -1078,7 +1086,7 @@ input[type="number"] {
  .desk_text-para strong {
    color: #9a2018;
  }
- /* 8. ---Footer--- */
+ /* 6. ---Desk-Footer--- */
  
  #desk_footer-hero {
     background-image: url(../images/desk_hm_foot.jpg);
