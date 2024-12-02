@@ -3,13 +3,22 @@
 
 This repository contains my FIP for MMED-1052 and MMED-1054. The project includes:
 
-3 Mobile Pages of Couples Resort:
-Spa Page – Introducing our luxurious spa services.
+3 Mobile Pages for Couples Resort based on original index page using CSS Grid and Proper Document Outline.
+Use of ::after pseudo selector to add a graphic element indicating completion one of the pages
+Created a Simple CSS animation for submit button.
+Implemented show/hide functionality based on the hamburger menu.
+
+3 Mobile Pages:
+Spa Page – Introducing luxurious spa services.
 Reservation Page – Easy-to-use booking interface.
 Algonquin Park Page – Discover the serene beauty of Algonquin Park and enjoy park activities.
 
 A Desktop Page:
 Valentine's Day Special Offer – Celebrate love with an exclusive packages and activities.
+
+For MMED-1051 & MMED-1052
+3 mob version & 3 desk version wireframes using alignment, typography, colors etc.
+Added images and prototyped for both mobile and desktop version.
 
 # Installation
 1. Download the ZIP file to your computer.
