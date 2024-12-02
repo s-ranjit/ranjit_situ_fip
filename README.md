@@ -1,7 +1,15 @@
 # ranjit_situ_fip
+![Special Packages](images/valentine's_packages.png)
+
 This repository contains my FIP for MMED-1052 and MMED-1054. The project includes:
-Mobile Pages: Spa, Reservation, and Algonquin Park.
-Desktop Page: Valentine's Day Special Offer.
+
+3 Mobile Pages of Couples Resort:
+Spa Page – Introducing our luxurious spa services.
+Reservation Page – Easy-to-use booking interface.
+Algonquin Park Page – Discover the serene beauty of Algonquin Park and enjoy park activities.
+
+A Desktop Page:
+Valentine's Day Special Offer – Celebrate love with an exclusive packages and activities.
 
 # Installation
 1. Download the ZIP file to your computer.
@@ -25,5 +33,3 @@ Ranjit Situ
 
 # License
 MIT License - see attached file
-
-![Main logo](images/couples_resort_logo.svg)
