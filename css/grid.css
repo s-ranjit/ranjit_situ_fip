@@ -79,7 +79,7 @@ body, p, h1, h2, h3, h4, h5 {
    display: grid;
    grid-template-columns: repeat(12, 80px);
    column-gap: 15px;
-   max-width: 1200px;
+   max-width: 1170px;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
